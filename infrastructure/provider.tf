@@ -5,7 +5,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket = "datalake-camera"
-    key = "state/rais2020/terraform.tfstate"
+    key    = "state/rais2020/terraform.tfstate"
     region = "us-east-1"
   }
 }
