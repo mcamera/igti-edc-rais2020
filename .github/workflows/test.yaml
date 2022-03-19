@@ -32,7 +32,7 @@ jobs:
         COMMAND_IAC: terraform
       run: |
         cd infrastructure
-        $COMMAND_IAX init
-        $COMMAND_IAX fmt -check
-        $COMMAND_IAX validate
-        $COMMAND_IAX plan
+        $COMMAND_IAC init
+        $COMMAND_IAC fmt -check
+        $COMMAND_IAC validate
+        $COMMAND_IAC plan

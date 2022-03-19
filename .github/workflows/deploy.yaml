@@ -32,8 +32,8 @@ jobs:
         COMMAND_IAC: terraform
       run: |
         cd infrastructure
-        $COMMAND_IAX init
-        $COMMAND_IAX fmt -check
-        $COMMAND_IAX validate
-        $COMMAND_IAX plan
-        $COMMAND_IAX apply -auto-approve
+        $COMMAND_IAC init
+        $COMMAND_IAC fmt -check
+        $COMMAND_IAC validate
+        $COMMAND_IAC plan
+        $COMMAND_IAC apply -auto-approve
